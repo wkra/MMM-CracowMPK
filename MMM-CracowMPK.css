@@ -1,0 +1,56 @@
+.mpk {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.mpk__item {
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.mpk__item:last-child::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.mpk__header-wrapper {
+  width: 100%;
+  display: block;
+  float: right;
+}
+
+.mpk__header-delay {
+  font-size: 16px;
+  color: #adabab;
+}
+
+.mpk__header {
+  float: right;
+  border-bottom: 2px solid #555555;
+  color: #fff;
+  width: 330px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.mpk__line-number {
+  border: 1px solid #555555;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  display: inline-block;
+}
